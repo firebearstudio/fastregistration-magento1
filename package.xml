@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+    <name>Firebear_Fastregistration</name>
+    <version>1.0.3</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Firebear free extension</summary>
+    <description>This extension allows customers to register in Magento store only with email &amp; password without using their first &amp; last names. Also, this extension allows registration only with email, in this case password will be generated automatically and sent to customer&#x2019;s email.</description>
+    <notes>Version 1.0.3.&#xD;
+Removed getWebsite() from installation script.</notes>
+    <authors><author><name>Firebear</name><user>fbeardev</user><email>fbeardev@gmail.com</email></author></authors>
+    <date>2013-08-08</date>
+    <time>13:39:06</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Firebear_Fastregistration.xml" hash="1b8164533ceb881bc763ad39e6175927"/></dir></target><target name="magecommunity"><dir name="Firebear"><dir name="Fastregistration"><dir name="Helper"><file name="Data.php" hash="7d81a8a0b760faa8e8b12407e57c89c3"/></dir><dir name="Model"><dir name="Resource"><dir name="Mysql4"><file name="Setup.php" hash="b5330e5a2b63d7429394854b3529d416"/></dir></dir></dir><dir name="controllers"><file name="AccountController.php" hash="80890f94dca226545658c9e9c07f5304"/></dir><dir name="etc"><file name="adminhtml.xml" hash="5d3b0e0c0b5a951138ec3a3398b9ef49"/><file name="config.xml" hash="0964d45353c891ee81419e7fc110fd18"/><file name="system.xml" hash="be97f11901fd8d811f60b9c7262f381b"/></dir><dir name="sql"><dir name="fastregistration_setup"><file name="mysql4-install-1.0.0.php" hash="43ed5ddb87f6328f52a2cbee7ea746e9"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="fastregistration.xml" hash="42cbab6e67738a541fa1cd882a67c20a"/></dir><dir name="template"><dir name="fastregistration"><file name="register.phtml" hash="cc84ee421d046cb738759df6b0577548"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.13</min><max>6.0.0</max></php></required></dependencies>
+</package>
