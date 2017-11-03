@@ -1,2 +1,1 @@
-# fastregistration-magento1
-Allow customers registration just with Email &amp; Password or even just Email
+This extension allows customers to register in Magento store only with email & password without their first & last names. Also, this extension allows registration only with email, in this case password will be generated automatically and sent to customer’s email.
